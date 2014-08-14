@@ -16,7 +16,8 @@ module.exports = {
     },
     destination_address: {
       type: 'string',
-      defaultsTo: null
+      defaultsTo: null,
+      required: true
     },
     destination_latitude: {
       type: 'float',
@@ -90,7 +91,7 @@ module.exports = {
       }
 
       cb();
-      
+
     });
   }
 };
