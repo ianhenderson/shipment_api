@@ -1,4 +1,3 @@
-shipment_api
-============
+# shipment_api
 
-Sample API for shipments using Sails.js
+a [Sails](http://sailsjs.org) application
